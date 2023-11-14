@@ -71,7 +71,7 @@
 
   var cpngAdsClick = document.createElement("a");
   cpngAdsClick.id = "cpngAdsClick";
-  cpngAdsClick.href = "https://link.coupang.com/a/bf1vGz";
+  cpngAdsClick.href = customCpngLink;
   cpngAdsClick.target = "_blank";
 
   var cpngText2 = document.createElement("div");
