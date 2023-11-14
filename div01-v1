@@ -36,7 +36,7 @@
   cpngText1.style.display = "flex";
   cpngText1.style.justifyContent = "center";
   cpngText1.style.alignItems = "center";
-  cpngText1.innerHTML = "<br><br>내용을 더 보기전에 쿠팡 최저가를 살펴보세요!";
+  cpngText1.innerHTML = "<br><br>"+customCpngText1;
 
   var cpngBanner = document.createElement("div");
   cpngBanner.id = "cpngBanner";
@@ -71,7 +71,7 @@
 
   var cpngAdsClick = document.createElement("a");
   cpngAdsClick.id = "cpngAdsClick";
-  cpngAdsClick.href = "http://www.naver.com";
+  cpngAdsClick.href = customCpngLink;
   cpngAdsClick.target = "_blank";
 
   var cpngText2 = document.createElement("div");
@@ -82,7 +82,7 @@
   cpngText2.style.flexDirection = "column";
   cpngText2.style.justifyContent = "center";
   cpngText2.style.alignItems = "center";
-  cpngText2.innerHTML = "쿠팡 방문하고 계속 보기";
+  cpngText2.innerHTML = customCpngText2;
 
   var cpngText3 = document.createElement("div");
   cpngText3.id = "cpngText3";
@@ -91,7 +91,7 @@
   cpngText3.style.display = "flex";
   cpngText3.style.justifyContent = "center";
   cpngText3.style.alignItems = "center";
-  cpngText3.innerHTML = "원하지 않으면, 5초 후 X를 눌러주세요.";
+  cpngText3.innerHTML = customCpngText3;
 
   var tempSpaceDivBottom = document.createElement("div");
   tempSpaceDivBottom.id = "tempSpaceDivBottom";
